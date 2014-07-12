@@ -33,8 +33,5 @@ legend("topright", col = c("black", "red", "blue"), bty="n", lty= "solid", legen
 plot(dataSubset$Day,dataSubset$Global_reactive_power, ylab="Global_reactive_power", lwd=1, type="l", xlab="datetime")
 
 
-<<<<<<< HEAD
+
 dev.off()
-=======
-dev.off()
->>>>>>> FETCH_HEAD
