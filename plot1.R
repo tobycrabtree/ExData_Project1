@@ -18,8 +18,4 @@ dev.copy(png, file="plot1.png", width=480, height=480)
 ## plot
 hist(as.numeric(dataSubset$Global_active_power), col ="red", xlab="Global Active Power (kilowatts)", main="Global Active Power", breaks=20)
 
-<<<<<<< HEAD
 dev.off()
-=======
-dev.off()
->>>>>>> FETCH_HEAD
