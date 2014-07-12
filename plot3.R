@@ -25,8 +25,6 @@ lines(dataSubset$Day,dataSubset$Sub_metering_3, col="blue", ylab="Energy sub met
 axis(1, at=c(1,nrow(dataSubset)/2,nrow(dataSubset)),labels=c("Thu","Fri","Sat")) 
 legend("topright", col = c("black", "red", "blue"), lty= "solid", legend = c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3") )
 
-<<<<<<< HEAD
+
 dev.off()
-=======
-dev.off()
->>>>>>> FETCH_HEAD
+
